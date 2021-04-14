@@ -1,0 +1,20 @@
+INSERT INTO
+products(p_name,
+		p_ASIN,
+		p_category,
+		cat_page,
+		p_list_price,
+		p_page_price,
+		p_link,
+		p_other_offers_link,
+		p_other_offers_count,
+		p_reviews,
+		p_review_count,
+		p_seller_id,
+		p_availability,
+		p_remarks,
+		p_color_variants,
+		p_size_varinats ,
+		p_style_variants,
+		p_scrapped_date_time) 
+VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
